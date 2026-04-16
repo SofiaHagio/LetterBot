@@ -1,60 +1,73 @@
 # 🎬 LetterBot
 
-Um chatbot simples em Python que ajuda o usuário a escolher um filme com base no gênero desejado.
+Um chatbot simples em Python que ajuda você a escolher um filme perfeito com base no seu gênero favorito.
 
 ---
 
-# 📌 Descrição
+## 📌 Sobre o projeto
 
 O **LetterBot** é um programa interativo que roda no terminal e funciona como um assistente de recomendação de filmes.
 
-O usuário escolhe um gênero (ação, comédia ou terror), e o bot sugere três filmes.  
-Depois, o usuário pode selecionar um deles e visualizar a descrição e a avaliação.
+A ideia é simples:  
+você escolhe um gênero (ação, comédia ou terror) e o bot sugere três opções.  
+Depois, você pode selecionar um filme para ver a descrição e, se quiser, conferir a avaliação.
+
+> 💡 Projeto ideal para quem está aprendendo lógica de programação e Python.
 
 ---
 
-# 🚀 Funcionalidades
+## 🚀 Funcionalidades
 
-- 🎥 Escolha de gênero (ação, comédia ou terror)
-- 📃 Lista com 3 recomendações por gênero
-- 📝 Exibição de descrição/resenha do filme
-- ⭐ Opção de ver a avaliação do filme
-- 🔁 Execução contínua até o usuário sair
+- 🎥 Seleção de gênero (ação, comédia ou terror)  
+- 📃 Lista com 3 recomendações por categoria  
+- 📝 Exibição de descrição do filme  
+- ⭐ Visualização de avaliação  
+- 🔁 Execução contínua até o usuário encerrar  
 
 ---
 
-# 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
 - Python 3
 
 ---
 
-# ▶️ Como executar o projeto
+## ▶️ Como executar
 
-1. Certifique-se de ter o Python instalado:
-   
-   ```bash
-   python --version
+### 1. Verifique se o Python está instalado
 
-Clone este repositório ou copie o código: git clone https://github.com/seu-usuario/letterbot.git
+```bash
+python --version
+```
 
-Acesse a pasta do projeto:
+### 2. Clone o repositório
 
- ```bash
+```bash
+git clone https://github.com/seu-usuario/letterbot.git
+```
+
+### 3. Acesse a pasta do projeto
+
+```bash
 cd letterbot
-````
-Execute o programa:
+```
 
-````bash
+### 4. Execute o programa
+
+```bash
 python chatbot_filmes.py
-  ````
+```
 
-💬 Exemplo de uso
+---
+
+## 💬 Exemplo de uso
+
+```
 Olá! Que alegria te ver por aqui!
 Eu sou seu amigo LetterBot e vou te ajudar a escolher um filme incrível.
 
-Os gêneros que eu conheço são: ação, comédia e terror.
-Qual desses você prefere hoje?
+Os gêneros disponíveis são: ação, comédia e terror.
+Qual você prefere hoje?
 
 > ação
 
@@ -67,19 +80,44 @@ Escolha: 2
 Descrição: Um ex-assassino de aluguel sai da aposentadoria...
 
 Quer ver a avaliação? (sim/não)
+```
 
-📂 Estrutura do projeto
+---
+
+## 📂 Estrutura do projeto
+
+```
 📁 letterbot
  ├── chatbot_filmes.py
  └── README.md
- 
-⚠️ Observações
-O programa roda apenas no terminal (não possui interface gráfica)
-Entrada inválida pode reiniciar o fluxo
-Ideal para fins de aprendizado em lógica e Python
+```
 
-✨ Melhorias futuras
-Adicionar mais gêneros
-Interface gráfica (GUI)
-Integração com API de filmes
-Sistema de recomendação mais inteligente
+---
+
+## ⚠️ Observações
+
+- O programa funciona apenas no terminal (sem interface gráfica)  
+- Entradas inválidas reiniciam o fluxo  
+- Projeto voltado para fins educacionais  
+
+---
+
+## ✨ Melhorias futuras
+
+- 📚 Adicionar novos gêneros  
+- 🖥️ Criar uma interface gráfica (GUI)  
+- 🌐 Integração com API de filmes (ex: TMDB)  
+- 🤖 Sistema de recomendação mais inteligente  
+
+---
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para contribuir com melhorias!  
+Basta fazer um fork do projeto e enviar um pull request 🚀
+
+---
+
+## 📄 Licença
+
+Este projeto é livre para uso educacional.

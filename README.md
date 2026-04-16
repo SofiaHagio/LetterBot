@@ -4,7 +4,7 @@ Um chatbot simples em Python que ajuda o usuário a escolher um filme com base n
 
 ---
 
-## 📌 Descrição
+# 📌 Descrição
 
 O **LetterBot** é um programa interativo que roda no terminal e funciona como um assistente de recomendação de filmes.
 
@@ -13,7 +13,7 @@ Depois, o usuário pode selecionar um deles e visualizar a descrição e a avali
 
 ---
 
-## 🚀 Funcionalidades
+# 🚀 Funcionalidades
 
 - 🎥 Escolha de gênero (ação, comédia ou terror)
 - 📃 Lista com 3 recomendações por gênero
@@ -23,22 +23,20 @@ Depois, o usuário pode selecionar um deles e visualizar a descrição e a avali
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+# 🛠️ Tecnologias utilizadas
 
 - Python 3
 
 ---
 
-## ▶️ Como executar o projeto
+# ▶️ Como executar o projeto
 
 1. Certifique-se de ter o Python instalado:
    
    ```bash
    python --version
 
-Clone este repositório ou copie o código:
-
-git clone https://github.com/seu-usuario/letterbot.git
+Clone este repositório ou copie o código: git clone https://github.com/seu-usuario/letterbot.git
 
 Acesse a pasta do projeto:
 

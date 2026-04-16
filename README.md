@@ -9,7 +9,7 @@ Um chatbot simples em Python que ajuda você a escolher um filme perfeito com ba
 O **LetterBot** é um programa interativo que roda no terminal e funciona como um assistente de recomendação de filmes.
 
 A ideia é simples:  
-você escolhe um gênero (ação, comédia ou terror) e o bot sugere três opções.  
+Você escolhe um gênero (ação, comédia ou terror) e o bot sugere três opções.  
 Depois, você pode selecionar um filme para ver a descrição e, se quiser, conferir a avaliação.
 
 > 💡 Projeto ideal para quem está aprendendo lógica de programação e Python.

@@ -55,7 +55,7 @@ cd letterbot
 ### 4. Execute o programa
 
 ```bash
-python chatbot_filmes.py
+python chatbot.py
 ```
 
 ---

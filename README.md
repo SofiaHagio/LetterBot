@@ -43,7 +43,7 @@ python --version
 ### 2. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/letterbot.git
+git clone https://github.com/SofiaHagio/LetterBot.git
 ```
 
 ### 3. Acesse a pasta do projeto

@@ -18,11 +18,11 @@ Depois, você pode selecionar um filme para ver a descrição e, se quiser, conf
 
 ## 🚀 Funcionalidades
 
-- 🎥 Seleção de gênero (ação, comédia ou terror)  
-- 📃 Lista com 3 recomendações por categoria  
-- 📝 Exibição de descrição do filme  
-- ⭐ Visualização de avaliação  
-- 🔁 Execução contínua até o usuário encerrar  
+- Seleção de gênero (ação, comédia ou terror)  
+- Lista com 3 recomendações por categoria  
+- Exibição de descrição do filme  
+- Visualização de avaliação  
+- Execução contínua até o usuário encerrar  
 
 ---
 
@@ -104,10 +104,10 @@ Quer ver a avaliação? (sim/não)
 
 ## ✨ Melhorias futuras
 
-- 📚 Adicionar novos gêneros  
-- 🖥️ Criar uma interface gráfica (GUI)  
-- 🌐 Integração com API de filmes (ex: TMDB)  
-- 🤖 Sistema de recomendação mais inteligente  
+- Adicionar novos gêneros  
+- Criar uma interface gráfica (GUI)  
+- Integração com API de filmes (ex: TMDB)  
+- Sistema de recomendação mais inteligente  
 
 ---
 

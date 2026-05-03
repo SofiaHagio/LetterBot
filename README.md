@@ -1,6 +1,6 @@
 # 🎬 LetterBot
 
-Um chatbot simples em Python que ajuda você a escolher um filme perfeito com base no seu gênero favorito.
+> Um chatbot simples em Python que ajuda você a escolher um filme perfeito com base no seu gênero favorito.
 
 ---
 
@@ -11,8 +11,6 @@ O **LetterBot** é um programa interativo que roda no terminal e funciona como u
 A ideia é simples:  
 Você escolhe um gênero (ação, comédia ou terror) e o bot sugere três opções.  
 Depois, você pode selecionar um filme para ver a descrição e, se quiser, conferir a avaliação.
-
-> 💡 Projeto ideal para quem está aprendendo lógica de programação e Python.
 
 ---
 
@@ -88,8 +86,8 @@ Quer ver a avaliação? (sim/não)
 
 ```
 📁 letterbot
- ├── chatbot.py    ← Código-fonte principal
- └── README.md     ← Este arquivo
+ ├── README.md     ← Este arquivo
+ └── chatbot.py    ← Código-fonte principal
 ```
 
 ---
@@ -114,7 +112,7 @@ Quer ver a avaliação? (sim/não)
 ## 🤝 Contribuição
 
 Sinta-se à vontade para contribuir com melhorias!  
-Basta fazer um fork do projeto e enviar um pull request 🚀
+Basta fazer um fork do projeto e enviar um pull request 
 
 ---
 

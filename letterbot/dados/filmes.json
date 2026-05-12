@@ -1,0 +1,137 @@
+[
+  {
+    "titulo": "Mad Max: Estrada da Fúria",
+    "genero": "Ação",
+    "ano": 2015,
+    "duracao": 120,
+    "nota": 8.1,
+    "direcao": "George Miller",
+    "sinopse": "Num deserto pós-apocalíptico, a imperatriz Furiosa foge de um tirano levando um grupo de prisioneiras, e o andarilho Max acaba entrando na fuga."
+  },
+  {
+    "titulo": "John Wick",
+    "genero": "Ação",
+    "ano": 2014,
+    "duracao": 101,
+    "nota": 7.4,
+    "direcao": "Chad Stahelski",
+    "sinopse": "Um ex-matador de aluguel volta à ativa para se vingar dos mafiosos que tiraram dele a última lembrança da esposa."
+  },
+  {
+    "titulo": "Top Gun: Maverick",
+    "genero": "Ação",
+    "ano": 2022,
+    "duracao": 130,
+    "nota": 8.2,
+    "direcao": "Joseph Kosinski",
+    "sinopse": "Depois de mais de 30 anos na Marinha, o piloto Maverick precisa treinar uma nova geração para uma missão quase impossível."
+  },
+  {
+    "titulo": "Gladiador",
+    "genero": "Ação",
+    "ano": 2000,
+    "duracao": 155,
+    "nota": 8.5,
+    "direcao": "Ridley Scott",
+    "sinopse": "Traído e condenado à escravidão, um general romano se torna gladiador e luta na arena para vingar a família."
+  },
+  {
+    "titulo": "Missão: Impossível – Efeito Fallout",
+    "genero": "Ação",
+    "ano": 2018,
+    "duracao": 147,
+    "nota": 7.7,
+    "direcao": "Christopher McQuarrie",
+    "sinopse": "Ethan Hunt e sua equipe correm contra o tempo para recuperar armas nucleares depois que uma missão dá errado."
+  },
+  {
+    "titulo": "O Auto da Compadecida",
+    "genero": "Comédia",
+    "ano": 2000,
+    "duracao": 104,
+    "nota": 8.6,
+    "direcao": "Guel Arraes",
+    "sinopse": "No sertão nordestino, os espertos João Grilo e Chicó vivem de pequenos golpes até que precisam enfrentar o próprio julgamento final."
+  },
+  {
+    "titulo": "Se Beber, Não Case!",
+    "genero": "Comédia",
+    "ano": 2009,
+    "duracao": 100,
+    "nota": 7.7,
+    "direcao": "Todd Phillips",
+    "sinopse": "Três amigos acordam em Las Vegas sem lembrar da despedida de solteiro e precisam encontrar o noivo antes do casamento."
+  },
+  {
+    "titulo": "Curtindo a Vida Adoidado",
+    "genero": "Comédia",
+    "ano": 1986,
+    "duracao": 103,
+    "nota": 7.8,
+    "direcao": "John Hughes",
+    "sinopse": "Ferris Bueller mata aula e transforma um dia comum em Chicago numa aventura, enquanto o diretor da escola tenta pegá-lo."
+  },
+  {
+    "titulo": "Superbad: É Hoje",
+    "genero": "Comédia",
+    "ano": 2007,
+    "duracao": 113,
+    "nota": 7.6,
+    "direcao": "Greg Mottola",
+    "sinopse": "Dois amigos inseparáveis tentam conseguir bebida para uma festa antes de irem para faculdades diferentes, e tudo sai do controle."
+  },
+  {
+    "titulo": "As Branquelas",
+    "genero": "Comédia",
+    "ano": 2004,
+    "duracao": 109,
+    "nota": 5.8,
+    "direcao": "Keenen Ivory Wayans",
+    "sinopse": "Dois agentes do FBI se disfarçam de herdeiras da alta sociedade para impedir um sequestro."
+  },
+  {
+    "titulo": "O Iluminado",
+    "genero": "Terror",
+    "ano": 1980,
+    "duracao": 146,
+    "nota": 8.4,
+    "direcao": "Stanley Kubrick",
+    "sinopse": "Um escritor aceita cuidar de um hotel isolado durante o inverno e, aos poucos, perde a sanidade."
+  },
+  {
+    "titulo": "Corra!",
+    "genero": "Terror",
+    "ano": 2017,
+    "duracao": 104,
+    "nota": 7.8,
+    "direcao": "Jordan Peele",
+    "sinopse": "Um jovem negro vai conhecer a família da namorada branca e descobre que a recepção calorosa esconde algo perturbador."
+  },
+  {
+    "titulo": "Invocação do Mal",
+    "genero": "Terror",
+    "ano": 2013,
+    "duracao": 112,
+    "nota": 7.5,
+    "direcao": "James Wan",
+    "sinopse": "Um casal de investigadores paranormais ajuda uma família aterrorizada por uma presença na nova casa."
+  },
+  {
+    "titulo": "Um Lugar Silencioso",
+    "genero": "Terror",
+    "ano": 2018,
+    "duracao": 90,
+    "nota": 7.5,
+    "direcao": "John Krasinski",
+    "sinopse": "Uma família precisa viver em silêncio absoluto para sobreviver a criaturas que caçam pelo som."
+  },
+  {
+    "titulo": "Hereditário",
+    "genero": "Terror",
+    "ano": 2018,
+    "duracao": 127,
+    "nota": 7.3,
+    "direcao": "Ari Aster",
+    "sinopse": "Após a morte da avó, uma família começa a descobrir segredos sombrios sobre os próprios antepassados."
+  }
+]

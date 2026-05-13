@@ -82,7 +82,7 @@ Quer ver a avaliação? (sim/não)
 
 ---
 
-## 📂 Estrutura do projeto
+## 📂 Estrutura do repositório
 
 ```
 📁 letterbot

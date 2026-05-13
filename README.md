@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Sobre o projeto
+## 📌 Descrição do projeto
 
 O **LetterBot** é um programa interativo que roda no terminal e funciona como um assistente de recomendação de filmes.
 

@@ -100,22 +100,9 @@ Quer ver a avaliação? (sim/não)
 
 ---
 
-## ✨ Melhorias futuras
+## 👩‍💻 Equipe
 
-- Adicionar novos gêneros  
-- Criar uma interface gráfica (GUI)  
-- Integração com API de filmes (ex: TMDB)  
-- Sistema de recomendação mais inteligente  
-
----
-
-## 🤝 Contribuição
-
-Sinta-se à vontade para contribuir com melhorias!  
-Basta fazer um fork do projeto e enviar um pull request 
-
----
-
-## 📄 Licença
-
-Este projeto é livre para uso educacional.
+- Guilherme Tome Nogueira
+- Lucas de Andrade Astorini 
+- Sabrina Lopes da Silva 
+- Sofia Satomi Hagio 

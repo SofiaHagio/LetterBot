@@ -86,8 +86,8 @@ Quer ver a avaliação? (sim/não)
 
 ```
 📁 letterbot
- ├── README.md     ← Este arquivo
- └── chatbot.py    ← Código-fonte principal
+ ├── 📄 README.md     ← Este arquivo
+ └── 📄 chatbot.py    ← Código-fonte principal
 ```
 
 ---

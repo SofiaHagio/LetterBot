@@ -133,5 +133,185 @@
     "nota": 7.3,
     "direcao": "Ari Aster",
     "sinopse": "Após a morte da avó, uma família começa a descobrir segredos sombrios sobre os próprios antepassados."
+  },
+  {
+    "titulo": "Um Sonho de Liberdade",
+    "genero": "Drama",
+    "ano": 1994,
+    "duracao": 142,
+    "nota": 9.3,
+    "direcao": "Frank Darabont",
+    "sinopse": "Condenado injustamente, um banqueiro encontra amizade e esperança durante décadas numa prisão de segurança máxima."
+  },
+  {
+    "titulo": "Forrest Gump",
+    "genero": "Drama",
+    "ano": 1994,
+    "duracao": 142,
+    "nota": 8.8,
+    "direcao": "Robert Zemeckis",
+    "sinopse": "Um homem de coração enorme atravessa, quase sem perceber, os grandes momentos da história americana."
+  },
+  {
+    "titulo": "Cidade de Deus",
+    "genero": "Drama",
+    "ano": 2002,
+    "duracao": 130,
+    "nota": 8.6,
+    "direcao": "Fernando Meirelles",
+    "sinopse": "Pelo olhar de um jovem fotógrafo, a história do crime e da violência numa comunidade do Rio de Janeiro."
+  },
+  {
+    "titulo": "À Procura da Felicidade",
+    "genero": "Drama",
+    "ano": 2006,
+    "duracao": 117,
+    "nota": 8.0,
+    "direcao": "Gabriele Muccino",
+    "sinopse": "Um pai sem dinheiro e sem casa luta por uma vaga de estágio numa corretora enquanto cuida do filho."
+  },
+  {
+    "titulo": "Central do Brasil",
+    "genero": "Drama",
+    "ano": 1998,
+    "duracao": 113,
+    "nota": 8.0,
+    "direcao": "Walter Salles",
+    "sinopse": "Uma escrevedora de cartas da estação Central do Brasil acompanha um menino na busca pelo pai no interior do país."
+  },
+  {
+    "titulo": "A Origem",
+    "genero": "Ficção científica",
+    "ano": 2010,
+    "duracao": 148,
+    "nota": 8.8,
+    "direcao": "Christopher Nolan",
+    "sinopse": "Um ladrão que invade sonhos recebe a missão de plantar uma ideia na mente de alguém."
+  },
+  {
+    "titulo": "Interestelar",
+    "genero": "Ficção científica",
+    "ano": 2014,
+    "duracao": 169,
+    "nota": 8.7,
+    "direcao": "Christopher Nolan",
+    "sinopse": "Com a Terra morrendo, um grupo de astronautas atravessa um buraco de minhoca em busca de um novo lar."
+  },
+  {
+    "titulo": "Matrix",
+    "genero": "Ficção científica",
+    "ano": 1999,
+    "duracao": 136,
+    "nota": 8.7,
+    "direcao": "Lana e Lilly Wachowski",
+    "sinopse": "Um hacker descobre que a realidade é uma simulação e se junta à resistência contra as máquinas."
+  },
+  {
+    "titulo": "De Volta para o Futuro",
+    "genero": "Ficção científica",
+    "ano": 1985,
+    "duracao": 116,
+    "nota": 8.5,
+    "direcao": "Robert Zemeckis",
+    "sinopse": "Um adolescente viaja por acidente para 1955 e precisa garantir que os pais se apaixonem."
+  },
+  {
+    "titulo": "Duna",
+    "genero": "Ficção científica",
+    "ano": 2021,
+    "duracao": 155,
+    "nota": 8.0,
+    "direcao": "Denis Villeneuve",
+    "sinopse": "O jovem Paul Atreides chega ao planeta desértico Arrakis, centro de uma disputa pela substância mais valiosa do universo."
+  },
+  {
+    "titulo": "A Viagem de Chihiro",
+    "genero": "Animação",
+    "ano": 2001,
+    "duracao": 125,
+    "nota": 8.6,
+    "direcao": "Hayao Miyazaki",
+    "sinopse": "Presa num mundo de espíritos, uma menina precisa trabalhar numa casa de banhos para salvar os pais."
+  },
+  {
+    "titulo": "O Rei Leão",
+    "genero": "Animação",
+    "ano": 1994,
+    "duracao": 88,
+    "nota": 8.5,
+    "direcao": "Roger Allers e Rob Minkoff",
+    "sinopse": "O jovem leão Simba foge depois da morte do pai e precisa voltar para assumir seu lugar."
+  },
+  {
+    "titulo": "Homem-Aranha: Através do Aranhaverso",
+    "genero": "Animação",
+    "ano": 2023,
+    "duracao": 140,
+    "nota": 8.5,
+    "direcao": "Joaquim Dos Santos, Kemp Powers e Justin K. Thompson",
+    "sinopse": "Miles Morales viaja pelo multiverso e encontra uma sociedade de Pessoas-Aranha com regras que ele não aceita."
+  },
+  {
+    "titulo": "Toy Story",
+    "genero": "Animação",
+    "ano": 1995,
+    "duracao": 81,
+    "nota": 8.3,
+    "direcao": "John Lasseter",
+    "sinopse": "O boneco Woody se sente ameaçado quando o astronauta Buzz Lightyear vira o brinquedo favorito do quarto."
+  },
+  {
+    "titulo": "Divertida Mente",
+    "genero": "Animação",
+    "ano": 2015,
+    "duracao": 95,
+    "nota": 8.1,
+    "direcao": "Pete Docter",
+    "sinopse": "As emoções de uma menina de 11 anos precisam trabalhar juntas quando a família muda de cidade."
+  },
+  {
+    "titulo": "Antes do Amanhecer",
+    "genero": "Romance",
+    "ano": 1995,
+    "duracao": 101,
+    "nota": 8.1,
+    "direcao": "Richard Linklater",
+    "sinopse": "Dois desconhecidos se conhecem num trem e passam uma única noite caminhando e conversando por Viena."
+  },
+  {
+    "titulo": "La La Land: Cantando Estações",
+    "genero": "Romance",
+    "ano": 2016,
+    "duracao": 128,
+    "nota": 8.0,
+    "direcao": "Damien Chazelle",
+    "sinopse": "Uma aspirante a atriz e um pianista de jazz se apaixonam enquanto perseguem os próprios sonhos em Los Angeles."
+  },
+  {
+    "titulo": "Questão de Tempo",
+    "genero": "Romance",
+    "ano": 2013,
+    "duracao": 123,
+    "nota": 7.8,
+    "direcao": "Richard Curtis",
+    "sinopse": "Um jovem descobre que pode voltar no tempo e usa o dom para conquistar o amor da sua vida."
+  },
+  {
+    "titulo": "Orgulho e Preconceito",
+    "genero": "Romance",
+    "ano": 2005,
+    "duracao": 129,
+    "nota": 7.8,
+    "direcao": "Joe Wright",
+    "sinopse": "Elizabeth Bennet e o reservado Sr. Darcy precisam superar as primeiras impressões que têm um do outro."
+  },
+  {
+    "titulo": "Diário de uma Paixão",
+    "genero": "Romance",
+    "ano": 2004,
+    "duracao": 123,
+    "nota": 7.8,
+    "direcao": "Nick Cassavetes",
+    "sinopse": "Um homem lê para uma senhora a história de um amor de verão que resistiu à distância e às famílias."
   }
 ]

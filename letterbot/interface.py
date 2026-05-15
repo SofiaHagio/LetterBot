@@ -56,6 +56,53 @@ def cabecalho() -> None:
     print(cor("═" * LARGURA, "laranja"))
 
 
+def estrelas(nota: float) -> str:
+    """Converte a nota de 0 a 10 em até 5 estrelas."""
+    cheias = round(nota / 2)
+    return "★" * cheias + "☆" * (5 - cheias)
+
+
+def item_lista(numero: int, filme: Filme, favorito: bool = False) -> str:
+    marca = cor(" ♥", "vermelho") if favorito else ""
+    detalhes = cor(f"{filme.ano} · {filme.duracao_formatada} · {filme.genero}", "cinza")
+    nota = cor(f"{filme.nota:.1f}", "amarelo")
+    return f"  {cor(str(numero).rjust(2), 'laranja')}. {filme.titulo}{marca}\n      {nota}  {detalhes}"
+
+
+def mostrar_lista(filmes: list[Filme], favoritos=None) -> None:
+    print()
+    for numero, filme in enumerate(filmes, 1):
+        favorito = favoritos.contem(filme.titulo) if favoritos else False
+        print(item_lista(numero, filme, favorito))
+
+
+def cartao(filme: Filme, favorito: bool = False) -> None:
+    """Ficha completa de um filme."""
+    print()
+    linha()
+    titulo = filme.titulo + (cor("  ♥ favorito", "vermelho") if favorito else "")
+    print(f"  {cor(titulo, 'negrito')}")
+    print(cor(f"  {filme.genero} · {filme.ano} · {filme.duracao_formatada} · direção de {filme.direcao}", "cinza"))
+    print(f"  {cor(estrelas(filme.nota), 'amarelo')}  {filme.nota:.1f}/10")
+    print()
+    for trecho in _quebrar(filme.sinopse, LARGURA - 4):
+        print(f"  {trecho}")
+    linha()
+
+
+def _quebrar(texto: str, largura: int) -> list[str]:
+    linhas, atual = [], ""
+    for palavra in texto.split():
+        if len(atual) + len(palavra) + 1 > largura:
+            linhas.append(atual)
+            atual = palavra
+        else:
+            atual = f"{atual} {palavra}".strip()
+    if atual:
+        linhas.append(atual)
+    return linhas
+
+
 def perguntar(texto: str) -> str:
     """Lê uma resposta. Ctrl+C ou Ctrl+D encerram a conversa com educação."""
     try:

@@ -1,8 +1,11 @@
 import random
+import tempfile
 import unittest
+from pathlib import Path
 
 from letterbot import recomendacao as rec
 from letterbot.catalogo import Filme, carregar_catalogo, listar_generos
+from letterbot.favoritos import Favoritos
 
 
 def filme(titulo, genero="Drama", nota=7.0, duracao=100, direcao="Fulana"):
@@ -85,6 +88,36 @@ class TestRecomendacao(unittest.TestCase):
     def test_surpresa_recomeca_quando_todos_ja_sairam(self):
         vistos = {f.titulo for f in self.catalogo}
         self.assertIn(rec.surpresa(self.catalogo, vistos), self.catalogo)
+
+
+class TestFavoritos(unittest.TestCase):
+    def setUp(self):
+        self.pasta = tempfile.TemporaryDirectory()
+        self.caminho = Path(self.pasta.name) / "favoritos.json"
+
+    def tearDown(self):
+        self.pasta.cleanup()
+
+    def test_adicionar_salva_e_persiste(self):
+        Favoritos(self.caminho).adicionar("Matrix")
+        self.assertTrue(Favoritos(self.caminho).contem("Matrix"))
+
+    def test_nao_duplica(self):
+        favoritos = Favoritos(self.caminho)
+        self.assertTrue(favoritos.adicionar("Matrix"))
+        self.assertFalse(favoritos.adicionar("Matrix"))
+        self.assertEqual(len(favoritos), 1)
+
+    def test_remover(self):
+        favoritos = Favoritos(self.caminho)
+        favoritos.adicionar("Matrix")
+        self.assertTrue(favoritos.remover("Matrix"))
+        self.assertFalse(favoritos.remover("Matrix"))
+        self.assertEqual(len(Favoritos(self.caminho)), 0)
+
+    def test_arquivo_corrompido_vira_lista_vazia(self):
+        self.caminho.write_text("isso não é json", encoding="utf-8")
+        self.assertEqual(len(Favoritos(self.caminho)), 0)
 
 
 if __name__ == "__main__":
